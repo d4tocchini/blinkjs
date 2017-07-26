@@ -7,10 +7,10 @@ import { Texture } from './WebGL/Texture'
  * is requested on the device (GPU), the contents of `Buffer`'s data
  * are allocated and copied from the host to the device.
  * 
- * Once te device is done computing, the contents of the `Buffer` on
+ * Once the device is done computing, the contents of the `Buffer` on
  * the device are copied back to the host.
  *
- * All device copies are stored and mainted through `BufferCache`.
+ * All device copies are stored and maintained through the `BufferCache`.
  *
  * NOTE: Data of a `Buffer` are NOT retained on the device. Once the
  * data has been copied back to the host, the device copy will be
